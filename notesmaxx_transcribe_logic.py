@@ -22,7 +22,7 @@ from notesmaxx_generate_image import create_image
 
 # setting up google drive: loading credentials, creating drive service object, uploading
 credentials = service_account.Credentials.from_service_account_file(
-    r"C:\Users\hamza\PycharmProjects\notesmaxx\notesmaxxaudios-57d6b09c8d15.json")
+    r"notesmaxxaudios-57d6b09c8d15.json")
 # Create a Drive service object
 drive_service = build('drive', 'v3', credentials=credentials)
 paid = False
